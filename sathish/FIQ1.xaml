@@ -1,0 +1,18 @@
+﻿<Window x:Class="sathish.FIQ1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sathish"
+        mc:Ignorable="d"
+        Title="FIQ1" Height="450" Width="500" Background="LightGreen">
+    <StackPanel Margin="20">
+        <Label Content="C# Quiz Competition" FontSize="30" FontStyle="Italic"  HorizontalAlignment="Center"></Label>
+        <StackPanel Orientation="Horizontal" Margin="30">
+            <Label Content="Enter Name :" Background="GreenYellow" Width="100" ></Label>
+            <TextBox x:Name="txtbname" Background="White"  Width="150" Height="30" ></TextBox>
+        </StackPanel>
+        
+        <Button x:Name="btnlog" Content="Login" Width="200" FontSize="19" Click="btnlog_Click" Background="SkyBlue" BorderThickness="5" Margin="20" ></Button>
+    </StackPanel>
+</Window>

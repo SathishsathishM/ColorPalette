@@ -1,0 +1,25 @@
+﻿<Window x:Class="sathish.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sathish"
+        mc:Ignorable="d"
+        Title="MainWindow" Background="Blue" Height="400" Width="500">
+
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal">
+            <Label x:Name="lblred" MouseDoubleClick="lblred_MouseDoubleClick" Background="Red" Height="40" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top"></Label>
+            <Label x:Name="lblwhite" MouseDoubleClick="lblwhite_MouseDoubleClick" Background="White" Height="40" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top"></Label>
+            <Label Background="Yellow" Height="40" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top"></Label>
+            
+        </StackPanel>
+      <StackPanel Orientation="Horizontal">
+            <Label x:Name="lblblack" MouseEnter="lblblack_MouseEnter" MouseLeave="lblblack_MouseLeave" Background="Black" Height="40" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top"></Label>
+        <Label Background="Green" Height="40" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top"></Label>
+        <Label Background="RosyBrown" Height="40" Width="50" HorizontalAlignment="Left" VerticalAlignment="Top"></Label>
+    </StackPanel>
+        <Label x:Name="lblmain" Background="Pink" Width="200" Height="300" ></Label>
+ </StackPanel>
+
+</Window>

@@ -1,0 +1,34 @@
+﻿<Window x:Class="sathish.Log1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sathish"
+        mc:Ignorable="d"
+        Title="Log1" Height="450" Background="SkyBlue" Width="500">
+    <StackPanel Margin="20,36,20,4">
+      <StackPanel Margin="10"  Orientation="Horizontal"> 
+            <Label Content="Name :"  Padding="3" FontSize="13" Width="50" Background="LightGray" > </Label>
+            <TextBox x:Name="txtname"  Width="110"  ></TextBox>
+       </StackPanel>
+        <StackPanel Margin="10"  Orientation="Horizontal">
+            <Label  Content="Year :" Padding="5" Width="50" FontSize="13" Background="LightGray" ></Label>
+                <TextBox x:Name="txtyear" Width="90" ></TextBox>
+
+            </StackPanel>
+        <StackPanel Margin="10"  Orientation="Horizontal">
+            <Label Content="Qualification :"  Padding="3" FontSize="13" Width="90" Background="LightGray" ></Label>
+            <TextBox x:Name="txtqual"  Width="100"  ></TextBox>
+
+        </StackPanel>
+           
+        <StackPanel Margin="20" Orientation="Horizontal">
+            <Button Content="Are You Working" Click="Button_Click" Padding="3" FontSize="13" ></Button>
+            <Label Width="50"></Label>
+            <Button Content="Are You Student" Click="Button_Click_1" Padding="3" FontSize="13"></Button>
+        </StackPanel>
+       
+
+
+    </StackPanel>
+</Window>

@@ -1,0 +1,107 @@
+﻿<Window x:Class="sathish.Game"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sathish"
+        mc:Ignorable="d"
+        Title="Game" Height="450" Width="500"  Background="RosyBrown" >
+
+    <StackPanel Margin="20" >
+        <TextBlock Text="PICK YOUR LUCKY BOX" FontSize="30" FontStyle="Oblique"  Background="LightGray" HorizontalAlignment="Center"  ></TextBlock>
+        <StackPanel Margin="20" >
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Player1" Padding="5" FontStyle="Italic" Background="LightGray"  Width="70" FontSize="13"  ></Label>
+                <Label Width="250" ></Label>
+                <Label Content="Player2" Padding="5"   FontStyle="Italic" Background="LightGray" FontSize="13" HorizontalAlignment="Right"  Width="70" ></Label>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="20" Orientation="Horizontal">
+            <Label x:Name="lblname1" Content="sathish"  Tag="1" FontStyle="Italic" FontSize="15"></Label>
+            <!--<Label.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\s\Downloads\1.png" Width="30" Height="20"></Image>
+                        <AccessText Text="Sathish" ></AccessText>-->
+                        <TextBlock  x:Name="txtbamount1" Text="0" Padding="5" Width="100" Foreground="SkyBlue"  Background="White" ></TextBlock>
+                    <!--</StackPanel>-->
+                <!--</Label.Content>-->
+          
+            <Label Width="80" ></Label>
+            <Label x:Name="lblname2" Content="vishnu" Tag="0" FontSize="15" FontStyle="Italic" ></Label>
+            <!--<Label.Content>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\s\Downloads\1.png" Width="30" Height="20"></Image>
+                        <AccessText Text="Vishnu" ></AccessText>-->
+            <TextBlock  x:Name="txtbamount2" Text="0" Padding="5" Width="100" Foreground="Green" Background="White" ></TextBlock>
+                    <!--</StackPanel>
+                </Label.Content>-->
+       
+        </StackPanel>
+        <StackPanel Margin="22">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="1" Tag="10" Width="40" Height="40" BorderThickness="6" Click="Common_Click"   ></Button>
+                <Button Content="2" Tag="100" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="3" Tag="1000" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="4" Tag="43000" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="5" Tag="4000" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="6" Tag="2000" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="7" Tag="9000" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="8" Tag="3000" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="9" Tag="1500" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="10" Tag="6000" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Button Content="11" Tag="10" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="12" Tag="10480" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="13" Tag="1000" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="14" Tag="100" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="15" Tag="12000" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="16" Tag="10300" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="17" Tag="10050" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="18" Tag="10050" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="19" Tag="1000" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="20" Tag="10090" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Button Content="21" Tag="10" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="22" Tag="100" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="23" Tag="100" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="24" Tag="100" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="25" Tag="12000" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="26" Tag="10300" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="27" Tag="10050" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="28" Tag="1000" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="29" Tag="373600" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="30" Tag="10430" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Button Content="31" Tag="46540" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="32" Tag="100" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="33" Tag="60000" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="34" Tag="100" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="35" Tag="12000" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="36" Tag="10300" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="37" Tag="10050" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="38" Tag="45000" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="39" Tag="1000" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="40" Tag="1000" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Button Content="41" Tag="10" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="42" Tag="1400" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="43" Tag="104400" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="44" Tag="100" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="45" Tag="120400" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="46" Tag="10300" Width="40" Height="40" BorderThickness="6" Click="Common_Click"  ></Button>
+                <Button Content="47" Tag="10050" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="48" Tag="100033" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="49" Tag="2000" Width="40" Height="40" BorderThickness="6" Click="Common_Click" ></Button>
+                <Button Content="50" Tag="64846" Width="40" Height="40"  BorderThickness="6" Click="Common_Click" ></Button>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Window>
